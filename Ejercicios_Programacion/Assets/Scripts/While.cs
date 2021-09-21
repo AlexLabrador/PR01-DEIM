@@ -4,17 +4,25 @@ using UnityEngine;
 
 public class While : MonoBehaviour
 {
-    float number = 0;
+    int number = 0;
     // Start is called before the first frame update
     void Start()
     {
-       while(number >= 10)
+      
+        while (number <= 10)
         {
             print(number);
             number++;
+           
+      
+            
+          
+
 
         }
+        print("ya ha llegado a 10");
     }
+
 
     // Update is called once per frame
     void Update()
