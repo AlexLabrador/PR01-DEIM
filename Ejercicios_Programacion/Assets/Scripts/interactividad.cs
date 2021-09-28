@@ -16,6 +16,6 @@ public class interactividad : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(vector3.left * Time.deltaTime * Input.GetAxis("Horizontal") * speed);
+        transform.Translate(Vector3.left * Time.deltaTime * Input.GetAxis("Horizontal") * speed);
     }
 }
