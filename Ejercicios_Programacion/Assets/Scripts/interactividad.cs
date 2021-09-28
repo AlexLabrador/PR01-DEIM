@@ -17,5 +17,7 @@ public class interactividad : MonoBehaviour
     void Update()
     {
         transform.Translate(Vector3.left * Time.deltaTime * Input.GetAxis("Horizontal") * speed);
+        transform.Translate(Vector3.back * Time.deltaTime * Input.GetAxis("Vertical") * speed);
+        
     }
 }

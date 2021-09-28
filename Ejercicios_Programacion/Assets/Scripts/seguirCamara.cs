@@ -26,6 +26,8 @@ public class seguirCamara : MonoBehaviour
     void Update()
     {
         transform.LookAt(playerPosition);
+        float newPosY = playerPosition.position.y + alturaCamara;
+        float newPosZ = playerPosition.position.z - distanciaJugador;
         cameraPosition = new Vector3(0f, playerPosition.position.y + alturaCamara, playerPosition.position.z - distanciaJugador);
         transform.position = cameraPosition;
     }

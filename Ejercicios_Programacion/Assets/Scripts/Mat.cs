@@ -10,10 +10,9 @@ public class Mat : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
+       
             Calculadora(num1, num2, operacion);
-        }
+       
        
     }
 
